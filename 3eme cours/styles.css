@@ -1,0 +1,16 @@
+.para1 { 
+    font-size:30px;
+    font-style: italic;
+    font-weight: normal;
+    line-height:100px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(200,100,50,0.6);
+  
+    text-align: left;
+    text-decoration: underline;
+    text-indent: 20px;
+    text-transform: uppercase;
+}
+.para2 {
+    font-size:150%;
+}

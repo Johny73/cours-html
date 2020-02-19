@@ -1,0 +1,21 @@
+/*ceci est un commentaire css */
+p {
+     color:green;
+ }
+ h1 {
+     color: blueviolet;
+     font: bold;
+ }
+
+ .premierp { 
+     color: yellow;
+ }
+
+ #deuxiemep {
+     background-color: tomato;
+ }
+
+ .monsstitre {
+     font-size: x-large;
+     background-color: indianred;
+ }
