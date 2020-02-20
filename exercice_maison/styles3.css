@@ -22,24 +22,38 @@ img {
     width:60%;
     display: flex;
     flex-wrap: nowrap;
+    
 }
 
 .produit, img {
     display: inline-block;
-
-       }
+    vertical-align: middle;
+}
 
 
 ul {
     display: inline-block;
-    width:300px;
+  
+    flex-basis:100%
 }
 button {
-    width:150px;
-    align-self: flex-end;}
+    flex-basis:50%;
     display: inline-block;
-    
+}
+
 main { 
     border: 1px solid black;
-    width:600px;
+    width:500px;
+    position: static;
+    top: 50px;
+    left: 30px;
+}
+
+footer {
+    position: relative;
+    top: 150px;
+    background-color: rgb(25, 180, 10);
+    font-size: 15px;
+    font: 3px;
+
 }
