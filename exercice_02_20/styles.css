@@ -1,3 +1,5 @@
+@import "__animation.css";
+
 header {
     line-height: 2em;
     font-size: 25px;
@@ -11,6 +13,7 @@ nav {
     position: relative;
     top:0;
     background-color: rgb(202, 202, 235);
+    transition: background-color 400ms ease;
     margin:0;
     position: sticky;
 }
@@ -20,18 +23,26 @@ nav button {
     font-weight: 600;
     width: 180px;
     border: 3px solid rgb(201, 43, 77); ;
-    background-color: rgb(202, 202, 235);
+    background-color:rgb(202, 202, 235);
     border-radius: 20px;
     padding: 4px;
     text-align: center;
-
     cursor: pointer;
+        
 }
 
+nav button:hover {
 
-nav :hover ul {
+}
+
+nav :hover ul 
+{
+    visibility:visible;
+    opacity:1;
     display:block;
-    background-color: rgb(202, 202, 235);
+    transition: opacity 4000ms ease;
+    
+    
  }
 
 nav > div {
@@ -50,10 +61,16 @@ nav ul{
     text-decoration: none;
     position: absolute;
     right:0 ; left:0; top: 2.5em;
-    display: none;
+    
     border-radius: 20px;
     border: 3px solid rgb(201, 43, 77); 
+    background-color:rgb(202, 202, 235);
+    border-radius: 20px;
     padding: 4px;
+    visibility: hidden;
+   opacity:0;
+    
+   
   }
 
 
