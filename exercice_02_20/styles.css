@@ -1,0 +1,58 @@
+nav {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    line-height: 2.5em;
+    position: relative;
+    top:0;
+    background-color: rgb(202, 202, 235);
+    margin:0;
+    position: sticky;
+}
+
+nav button {
+    font-size: 20px;
+    font-weight: 600;
+    width: 180px;
+    border: 3px solid rgb(201, 43, 77); ;
+    background-color: rgb(202, 202, 235);
+    border-radius: 20px;
+    padding: 4px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+
+nav :hover ul {
+    display:block;
+    background-color: rgb(202, 202, 235);
+ 
+}
+
+nav > div {
+    position: relative;
+}
+
+
+div button:active {
+    box-shadow: .135em .135em black inset;
+}
+
+nav ul{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    text-decoration: none;
+    position: absolute;
+    right:0 ; left:0; top: 2.5em;
+    display: none;
+    border-radius: 20px;
+    border: 3px solid rgb(201, 43, 77); 
+    padding: 4px;
+  
+
+}
+
+
+
