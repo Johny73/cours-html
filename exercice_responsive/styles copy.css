@@ -1,0 +1,48 @@
+body {min-width: 350px;}
+
+.menu {
+    margin : 0;
+    line-height: 1em;
+    font-size: 25px;
+    background-color: rgb(202, 202, 235);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+      
+}
+
+button {
+    font-size: 80%;
+    font-weight: 600;
+    background-color:rgb(202, 202, 235);
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+    flex-basis:100%;
+}
+
+.sm1, .sm2, .sm3 {display:none;}
+
+
+h1 {text-align: center ;
+    background-color:rgb(202, 202, 235);
+    margin:0;
+    font-size: 25px;
+}
+
+
+ul { border: 1px solid black;}
+
+@media (min-width: 768px) {
+    button{ 
+        flex: 1 0 auto;
+            }}
+       
+
+
+@media (min-width: 1196px) {
+    button{ 
+        flex: 0 0 auto;
+            }}
+       
+
