@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "__animation.css";
 
 header {
@@ -5,6 +6,8 @@ header {
     font-size: 25px;
     background-color: rgb(202, 202, 235);
 }
+=======
+>>>>>>> e801ce1f79b0b2841ae420249607f38adf9279dc
 nav {
     display:flex;
     flex-wrap: nowrap;
@@ -13,7 +16,10 @@ nav {
     position: relative;
     top:0;
     background-color: rgb(202, 202, 235);
+<<<<<<< HEAD
     transition: background-color 400ms ease;
+=======
+>>>>>>> e801ce1f79b0b2841ae420249607f38adf9279dc
     margin:0;
     position: sticky;
 }
@@ -23,6 +29,7 @@ nav button {
     font-weight: 600;
     width: 180px;
     border: 3px solid rgb(201, 43, 77); ;
+<<<<<<< HEAD
     background-color:rgb(202, 202, 235);
     border-radius: 20px;
     padding: 4px;
@@ -44,6 +51,22 @@ nav :hover ul
     
     
  }
+=======
+    background-color: rgb(202, 202, 235);
+    border-radius: 20px;
+    padding: 4px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+
+nav :hover ul {
+    display:block;
+    background-color: rgb(202, 202, 235);
+ 
+}
+>>>>>>> e801ce1f79b0b2841ae420249607f38adf9279dc
 
 nav > div {
     position: relative;
@@ -61,6 +84,7 @@ nav ul{
     text-decoration: none;
     position: absolute;
     right:0 ; left:0; top: 2.5em;
+<<<<<<< HEAD
     
     border-radius: 20px;
     border: 3px solid rgb(201, 43, 77); 
@@ -81,3 +105,15 @@ Ces sous-fichiers seront nommés __nom.css
 Puis dans le fichier initial il n'y aura en principe que les liens vers les autres fichiers 
 soit pe :  @import "repertoire/__header.css"
            @import "repertoire/__menu.css"*/
+=======
+    display: none;
+    border-radius: 20px;
+    border: 3px solid rgb(201, 43, 77); 
+    padding: 4px;
+  
+
+}
+
+
+
+>>>>>>> e801ce1f79b0b2841ae420249607f38adf9279dc
